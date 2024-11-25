@@ -1,7 +1,0 @@
-[build]
-  base = "DateCalculator"     # 프로젝트 루트 디렉토리
-  publish = "DateCalculator/public"  # 빌드된 파일들이 위치하는 디렉토리
-  command = "npm run build"   # 빌드 명령어
-
-[functions]
-  directory = "netlify/functions"  # 서버리스 함수 디렉토리 (기본값: netlify/functions)
