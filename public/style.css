@@ -14,7 +14,7 @@ body {
     position: relative;
     text-align: center; /* 텍스트 가운데 정렬 */
     background-image: url('/images/KMJMainImage.jpg');
-    background-size: cover; /* 배경 이미지 크기 조정 */
+    background-size: 500px; /* 배경 이미지 크기 조정 */
     background-position: center; /* 배경 이미지 중앙 정렬 */
     background-attachment: fixed; /* 스크롤 시 배경 고정 */
     padding: 100px 0; /* 텍스트 주변 여백 */
@@ -36,14 +36,4 @@ body {
     font-size: 1.5rem; /* 시간/분/초를 작게 표시 */
     color: #555;
     margin-top: -0.5rem; /* D-Day와 약간 가까이 배치 */
-}
-
-img {
-    position: absolute; /* 이미지가 텍스트를 침범하지 않도록 절대 위치 지정 */
-    bottom: 0;           /* 이미지가 아래쪽에 배치 */
-    left: 50%;
-    transform: translateX(-50%); /* 가운데 정렬 */
-    width: 300px; /* 이미지 크기 설정 */
-    height: auto;
-    z-index: 0; /* 이미지가 텍스트 아래로 오게 설정 */
 }
