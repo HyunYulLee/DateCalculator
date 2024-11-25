@@ -1,4 +1,4 @@
 [build]
-  base = "."  
-  publish = "public" 
-  command = "npm run build" 
+  base = "DateCalculator"  # 루트 디렉토리
+  publish = "public"       # 빌드 후 결과물이 위치한 디렉토리
+  command = "npm run build"  # 빌드 명령어
