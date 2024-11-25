@@ -1,2 +1,1 @@
-# DateCalculator
-[![Netlify Status](https://api.netlify.com/api/v1/badges/9f73f332-65ae-41b3-ac21-d589b529f4e3/deploy-status)](https://app.netlify.com/sites/kmjdday/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/1ef487e6-b817-4782-ab5c-c33aa39cf9f3/deploy-status)](https://app.netlify.com/sites/kmjdday/deploys)
