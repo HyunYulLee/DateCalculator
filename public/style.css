@@ -13,10 +13,6 @@ body {
 .container {
     position: relative;
     text-align: center; /* 텍스트 가운데 정렬 */
-    background-image: url('/images/KMJMainImage.jpg');
-    background-size: 500px; /* 배경 이미지 크기 조정 */
-    background-position: center; /* 배경 이미지 중앙 정렬 */
-    background-attachment: fixed; /* 스크롤 시 배경 고정 */
     padding: 100px 0; /* 텍스트 주변 여백 */
 }
 
@@ -29,11 +25,17 @@ body {
     font-size: 5rem; /* D-Day를 크게 표시 */
     margin-bottom: 1rem;
     margin-top: -2rem;
-    color: #007bff;
+    color: #ff0000;
 }
 
 .time-details {
     font-size: 1.5rem; /* 시간/분/초를 작게 표시 */
     color: #555;
     margin-top: -0.5rem; /* D-Day와 약간 가까이 배치 */
+}
+
+.KMJimg {
+    width: 50%;
+    height: auto;
+
 }
