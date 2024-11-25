@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f0f8ff;
+    color: #333;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+    margin-bottom: 35%;
+}
+
+.d-day {
+    font-size: 5rem; /* D-Day를 크게 표시 */
+    margin-bottom: 1rem;
+    margin-top: -2rem;
+    color: #007bff;
+}
+
+.time-details {
+    font-size: 1.5rem; /* 시간/분/초를 작게 표시 */
+    color: #555;
+    margin-top: -0.5rem; /* D-Day와 약간 가까이 배치 */
+}
