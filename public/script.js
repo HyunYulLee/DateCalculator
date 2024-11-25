@@ -1,5 +1,5 @@
 // D-Day 목표 날짜 설정
-const targetDate = new Date("2024-12-31T23:59:59"); // 목표 날짜 설정
+const targetDate = new Date("2026-02-04T00:00:00"); // 목표 날짜 설정
 
 function updateCountdown() {
     const now = new Date(); // 현재 시간
